@@ -61,7 +61,7 @@ export default {
 <style scope>
 .cash-container {
   width: 100%;
-  height: 30%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
