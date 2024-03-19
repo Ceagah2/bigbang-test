@@ -2,19 +2,24 @@
   <div class="container">
     <AppHeader />
     <CashContainer />
-    <div class="transactions-container"></div>
+    <div class="transactions-container">
+      <TransactionsContainer />
+      <TransactionsContainer />
+    </div>
   </div>
 </template>
 
 <script>
 import AppHeader from './components/Header.vue'
 import CashContainer from './components/CashContainer.vue'
+import TransactionsContainer from './components/Transactions.vue'
 
 export default {
   name: 'App',
   components: {
     AppHeader,
-    CashContainer
+    CashContainer,
+    TransactionsContainer
   }
 }
 </script>
