@@ -4,14 +4,15 @@
     <CashContainer />
     <div class="transactions-container">
       <TransactionsContainer />
-      <TransactionsContainer />
+      <BalanceContainer />
     </div>
   </div>
 </template>
 
 <script>
-import AppHeader from './components/Header.vue'
+import BalanceContainer from './components/BalanceContainer.vue'
 import CashContainer from './components/CashContainer.vue'
+import AppHeader from './components/Header.vue'
 import TransactionsContainer from './components/Transactions.vue'
 
 export default {
@@ -19,7 +20,8 @@ export default {
   components: {
     AppHeader,
     CashContainer,
-    TransactionsContainer
+    TransactionsContainer,
+    BalanceContainer
   }
 }
 </script>
@@ -27,7 +29,7 @@ export default {
 <style>
 .container {
   width: 100vw;
-  height: 100vw;
+  height: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
