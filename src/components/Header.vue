@@ -26,14 +26,14 @@ export default {
 <style scoped>
 .header-container {
   width: 100vw;
-  height: 60px;
+  height: 100px;
   background: #202027;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px 0 30px;
-  margin-bottom: 20px;
+  padding: 0 50px 0 50px;
+  margin-top: -20px;
 }
 .logo-container {
 }
@@ -74,5 +74,9 @@ export default {
 }
 .icon-container {
   color: white;
+}
+.icon-container:hover {
+  cursor: pointer;
+  scale: 1.1;
 }
 </style>
