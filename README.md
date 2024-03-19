@@ -1,39 +1,99 @@
-# big-bang-test
+# Big Bang front end test
 
-This template should help get you started developing with Vue 3 in Vite.
+## Problem
 
-## Recommended IDE Setup
+Creating a dashboard using Vue.js, being as faithful as possible to the Figma sent for testing, and following the following instructions:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- I can use an icon library
+- I can use a style library
+- I must follow Clean code principles
 
-## Type Support for `.vue` Imports in TS
+As an additional, I am following the following principles:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Short Commits
+- Conventional Commits
+- Single responsibility principle
+- Clean architecture
 
-## Customize configuration
+## Techs Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+The technologies used are:
 
-## Project Setup
+- Vue.js (mandatory),
+- Typescript, to ensure everything is typed correctly,
+- Font awesome, to use icons,
+- Styled-components, to create my components,
+- Git Commit Msg Linter, to handle my commits
+
+## How to run this code
+
+### Cloning
+
+To run this test code, you should follow these steps:
+
+- Clone this repo, using ssh or hhtps url.  
+  Using ssh :
+
+```sh
+git clone git@github.com:Ceagah2/bigbang-test.git
+```
+
+Using HTTPS:
+
+```sh
+https://github.com/Ceagah2/bigbang-test.git
+```
+
+After cloning the repo, you should navigate into it.
+
+```sh
+cd bigbang-test
+```
+
+### Installing
+
+Once you're into the test folder, you should install the dependencies, using your favorite package manager.
+
+PNPM:
 
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+NPM:
 
 ```sh
-pnpm dev
+npm install
 ```
 
-### Type-Check, Compile and Minify for Production
+YARN
 
 ```sh
-pnpm build
+yarn
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Running
+
+Once you already have installed, you should run.
+
+Using PNPM :
 
 ```sh
-pnpm lint
+pnpm run dev
 ```
+
+Using NPM
+
+```sh
+npm run dev
+```
+
+Using YARN
+
+```sh
+yarn dev
+```
+
+## Final considerations
+
+TBD
