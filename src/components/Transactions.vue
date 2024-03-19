@@ -48,7 +48,7 @@ export default {
 }
 .container-header {
   width: 80%;
-  height: 20%;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
