@@ -2,6 +2,7 @@
   <div class="container">
     <AppHeader />
     <CashContainer />
+    <div class="transactions-container"></div>
   </div>
 </template>
 
@@ -25,7 +26,15 @@ export default {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #202027;
+  background: white;
   padding-top: 20px;
+}
+.transactions-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 </style>
