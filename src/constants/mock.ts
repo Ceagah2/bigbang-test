@@ -1,3 +1,6 @@
+import bagIcon from '../assets/bag.png'
+import barcodeIcon from '../assets/barcode.png'
+import trendupIcon from '../assets/trend-up.png'
 export const values = {
   total: 304.78,
   pj: 398.82,
@@ -47,16 +50,22 @@ export const transactions = [
   {
     id: 1,
     name: 'Compras',
-    value: 62
+    value: 62,
+    color: '#FF9999',
+    icon: bagIcon
   },
   {
     id: 2,
     name: 'Boletos',
-    value: 14
+    value: 14,
+    color: '#A799FF',
+    icon: barcodeIcon
   },
   {
     id: 3,
     name: 'Investimentos',
-    value: 5
+    value: 5,
+    color: '#FF99D6',
+    icon: trendupIcon
   }
 ]
