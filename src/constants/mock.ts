@@ -9,27 +9,32 @@ export const locations = [
   {
     id: 1,
     name: 'Mercadinho da cidade',
-    value: 10.98
+    value: 10.98,
+    color: '#FDFF9D'
   },
   {
     id: 2,
     name: 'Tenda Nostra',
-    value: 26.38
+    value: 26.38,
+    color: '#FF9D9D'
   },
   {
     id: 3,
     name: 'Farmácia um',
-    value: 43.17
+    value: 43.17,
+    color: '#C8FF9D'
   },
   {
     id: 4,
     name: 'Academia Body',
-    value: 62.12
+    value: 62.12,
+    color: '#AB9DFF'
   },
   {
     id: 5,
     name: 'ShopOnline',
-    value: 135.24
+    value: 135.24,
+    color: '#FF9DEF'
   }
 ]
 
