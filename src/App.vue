@@ -1,18 +1,31 @@
 <template>
-  <div class="container">Hello Header</div>
+  <div class="container">
+    <AppHeader />
+    <CashContainer />
+  </div>
 </template>
 
-<script></script>
+<script>
+import AppHeader from './components/Header.vue'
+import CashContainer from './components/CashContainer.vue'
+
+export default {
+  name: 'App',
+  components: {
+    AppHeader,
+    CashContainer
+  }
+}
+</script>
 
 <style>
 .container {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: #202027;
+  padding-top: 20px;
 }
 </style>
