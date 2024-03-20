@@ -193,4 +193,41 @@ button:hover {
   align-items: center;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 1650px) {
+  .cards-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header-text-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+  }
+  .value-container {
+    width: 100%;
+  }
+  .cards-title {
+    margin-bottom: -50px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cash-container {
+    height: auto;
+  }
+  .cards-container {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 20px;
+  }
+  .cards-title {
+    margin: 0;
+  }
+}
 </style>

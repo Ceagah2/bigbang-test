@@ -44,4 +44,19 @@ export default {
   align-items: center;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-top: 0;
+    padding-bottom: 20px;
+    height: 100%;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  .transactions-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+}
 </style>

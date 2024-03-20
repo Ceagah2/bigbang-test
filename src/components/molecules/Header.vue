@@ -9,6 +9,7 @@
         <li class="nav-item">Pagamentos</li>
         <li class="nav-item">Invoices</li>
         <li class="nav-item">Insights</li>
+        <li class="nav-item-responsive"><i class="fa-solid fa-bars fa-2xl"></i></li>
       </ul>
     </nav>
     <div class="icon-container">
@@ -69,6 +70,15 @@ export default {
   min-width: 150px;
   text-align: center;
 }
+.nav-item-responsive {
+  display: none;
+  padding: 10px 20px;
+  list-style: none;
+  margin: 10px;
+  font-family: 'Poppins', sans-serif;
+  min-width: 150px;
+  text-align: center;
+}
 .nav-item:hover {
   cursor: pointer;
 }
@@ -78,5 +88,19 @@ export default {
 .icon-container:hover {
   cursor: pointer;
   scale: 1.1;
+}
+
+@media screen and (max-width: 950px) {
+  .nav-item {
+    min-width: 100px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .nav-item {
+    display: none;
+  }
+  .nav-item-responsive {
+    display: block;
+  }
 }
 </style>
