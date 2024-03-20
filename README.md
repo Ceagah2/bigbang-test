@@ -22,7 +22,6 @@ The technologies used are:
 - Vue.js (mandatory),
 - Typescript, to ensure everything is typed correctly,
 - Font awesome, to use icons,
-- Styled-components, to create my components,
 - Git Commit Msg Linter, to handle my commits
 
 ## How to run this code
@@ -96,4 +95,8 @@ yarn dev
 
 ## Final considerations
 
-TBD
+While developing the project, I encountered some issues with my favorite styling library, styled-components, and creating themes for the entire application's design system. Since time was short and I wanted to deliver a fully responsive application, I ended up abandoning the use of my preferred style to focus on project delivery.
+
+Another thing I considered using, but was unsure about its behavior over time, is the CRUD application, which simulates a database, and I would only need to consume the endpoints. However, as mentioned earlier, I was uncertain about its behavior over time, and what was registered could disappear, leaving my application with zeroed data, thus losing its fidelity to the Figma design.
+
+I really enjoyed developing this project, and I am happy with the outcome, even though I know it's not 100% of what I initially planned.
