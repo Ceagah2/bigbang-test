@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import TransactionItem from './TransactionItem.vue'
 import { locations } from '../constants/mock'
+import TransactionItem from './atoms/TransactionItem.vue'
 
 export default {
   name: 'TransactionsContainer',

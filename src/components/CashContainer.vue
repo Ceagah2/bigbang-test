@@ -40,7 +40,7 @@
 
 <script>
 import { values } from '../constants/mock'
-import ValueCard from './Card.vue'
+import ValueCard from './atoms/Card.vue'
 
 export default {
   name: 'CashContainer',

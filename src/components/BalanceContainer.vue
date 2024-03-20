@@ -33,7 +33,7 @@
 
 <script>
 import { balance, transactions } from '../constants/mock'
-import BalanceItem from './BalanceItem.vue'
+import BalanceItem from './atoms/BalanceItem.vue'
 export default {
   name: 'BalanceContainer',
   components: {
