@@ -25,7 +25,7 @@
     </div>
     <div class="money-container">
       <div class="cards-title">
-        <img src="../assets/bubble.png" alt="bubbles" />
+        <img src="../../assets/bubble.png" alt="bubbles" />
         <h3 class="title">Painel de estatísticas</h3>
         <span class="subtitle">últimos 7 dias</span>
       </div>
@@ -39,8 +39,8 @@
 </template>
 
 <script>
-import { values } from '../constants/mock'
-import ValueCard from './atoms/Card.vue'
+import { values } from '../../constants/mock'
+import ValueCard from '../atoms/Card.vue'
 
 export default {
   name: 'CashContainer',

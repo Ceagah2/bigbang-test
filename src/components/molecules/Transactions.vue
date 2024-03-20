@@ -2,7 +2,7 @@
   <div class="transactions-container">
     <div class="container-header">
       <div class="title-container">
-        <img class="icon" src="../assets/transactions.png" alt="transactions icon" />
+        <img class="icon" src="../../assets/transactions.png" alt="transactions icon" />
         <h3 class="title">Transações recentes</h3>
         <h4 class="subtitle">últimos 7 dias</h4>
       </div>
@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import { locations } from '../constants/mock'
-import TransactionItem from './atoms/TransactionItem.vue'
+import { locations } from '../../constants/mock'
+import TransactionItem from '../atoms/TransactionItem.vue'
 
 export default {
   name: 'TransactionsContainer',

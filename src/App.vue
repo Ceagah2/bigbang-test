@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import BalanceContainer from './components/BalanceContainer.vue'
-import CashContainer from './components/CashContainer.vue'
-import AppHeader from './components/Header.vue'
-import TransactionsContainer from './components/Transactions.vue'
+import BalanceContainer from './components/molecules/BalanceContainer.vue'
+import CashContainer from './components/molecules/CashContainer.vue'
+import AppHeader from './components/molecules/Header.vue'
+import TransactionsContainer from './components/molecules/Transactions.vue'
 
 export default {
   name: 'App',

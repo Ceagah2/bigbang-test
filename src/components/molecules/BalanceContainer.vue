@@ -2,7 +2,7 @@
   <div class="balance-container">
     <div class="container-header">
       <div class="title-container">
-        <img class="icon" src="../assets/balance.png" alt="transactions icon" />
+        <img class="icon" src="../../assets/balance.png" alt="transactions icon" />
         <h3 class="title">Análise geral</h3>
         <h4 class="subtitle">últimos 7 dias</h4>
       </div>
@@ -32,8 +32,8 @@
 </template>
 
 <script>
-import { balance, transactions } from '../constants/mock'
-import BalanceItem from './atoms/BalanceItem.vue'
+import { balance, transactions } from '../../constants/mock'
+import BalanceItem from '../atoms/BalanceItem.vue'
 export default {
   name: 'BalanceContainer',
   components: {

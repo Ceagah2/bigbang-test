@@ -1,7 +1,7 @@
 <template>
   <div class="transaction-item">
     <div class="icon-container" :style="{ backgroundColor: color }">
-      <img src="../assets/shop.png" alt="shop icon" />
+      <img src="../../assets/shop.png" alt="shop icon" />
     </div>
     <div class="transaction-details">
       <span class="transaction-name">{{ name }}</span>
